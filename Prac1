@@ -1,0 +1,18 @@
+# Practical Work 1: VPS Setup & Routing
+
+## VPS Setup
+- **Platform:** Google Cloud Platform
+- **VM Name:** routing-vps
+- **Machine Type:** f1-micro
+- **OS:** Debian 11
+
+## SSH Key Authentication
+```bash
+$ ssh -i ~/.ssh/vps-routing user@EXTERNAL_IP
+
+
+#check if usth is online
+$ ping -c 5 usth.edu.vn
+PING usth.edu.vn (113.160.225.70): 56 data bytes
+64 bytes from 113.160.225.70: icmp_seq=0 ttl=55 time=13.1 ms
+...
